@@ -5,6 +5,7 @@ def calcular_valor_com_desconto(valor_produto, percentual_desconto):
     valor_com_desconto = valor_produto - desconto
     return valor_com_desconto, desconto
 
+
 def test_calcular_valor_com_desconto_case_01():
     assert calcular_valor_com_desconto(100, 9) == (91.00, 9.00)
 

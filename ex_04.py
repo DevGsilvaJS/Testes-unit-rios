@@ -5,6 +5,7 @@ def calcular_valor_com_gorjeta(valor_despesa, percentual_gorjeta=10):
     valor_total_conta = valor_despesa + valor_gorjeta
     return valor_total_conta, valor_gorjeta
 
+
 def test_calcular_valor_com_gorjeta_case_01():
     assert calcular_valor_com_gorjeta(75.00) == (82.50, 7.50)
 
